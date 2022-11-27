@@ -11,7 +11,7 @@ for (p in pipelines) {
                     git {
                         remote {
                             name('github')
-                            url('')
+                            url('https://github.com/sydpachica/interview_me.git')
                         }
                         branch('master')
                         extensions {
